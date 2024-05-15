@@ -1,39 +1,11 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Lil BOWtique
+Welcome to Lil BOWtique online shop. The shop offers a wide selection of beautiful hair bows, ribbons and other hair accessories in various colours or themes/categories that suit any age, and what makes it special is that everything is all handcrafted.
+## Introduction
 
-Welcome,
+This website is the final project requirement for my Code Institute Full Stack Developer program. In this project I have to build a Full-Stack E-commerce application based on business logic used to control a centrally-owned dataset where business transactions such as purchase of products, digital products or services and payment for those purchases are facilitated. Whereas, on the technical side, this cloud-hosted project that is built using a Django framework aims to showcase knowledge and skills acquired on the following, HTML,CSS, Javascript, Python+Django, design and management of Relational database. Stripe payments must also be present to facilitate the business transaction. Development planning such as creation of user stories, identification of user experience and use of Agile tools was also utilised. Lastly, this project incorporates Authentication and role-based authorisation functionality, authorisation features. 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The live link(deployed) can be found here - [)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Target audience 
 
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+This user-friendly website is created primarily for those who are looking for non-ordinary hair bows/accessories for a certain theme/colour for their children or even for themselves. I, as a mother of a little girl, have first hand experience searching for extraordinary and unique bows for my little girl at some point in our lives, sometimes where an event or occasion calls for it. There are times, I find myself looking for bows/hair accessories with a specific theme or colour for a specific occasion or event. But with a very hectic schedule, I won't have time to browse each store in the malls or retail parks to buy one. Being in the digital era now, shopping conveniently at the tip of your fingers with ease and having it delivered to your door is really a life-saver. Almost everything can be bought online and so are these bows. This website also saves a lot of one's time through the ease of searching for a certain criteria like colour, theme and in one-click you'll see what you're looking for or at least you will know if you found what you are looking for. 
