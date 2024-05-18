@@ -3,6 +3,10 @@ from django.db import models
 # Create your models here.
 
 class Category(models.Model):
+
+    class Meta:
+        verbose_name_plural = 'Categories'
+
     field_name = models.CharField(max_length=60)
     readable_name = models.CharField(max_length=80)
     description = models.CharField(max_length=300, null=True, blank=True)
