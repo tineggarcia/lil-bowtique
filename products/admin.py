@@ -3,27 +3,28 @@ from .models import Product, Category, User, Order, Order_item
 
 # Register your models here.
 
-class ProductAdmin(admin, ModelAdmin):
+class ProductAdmin(admin.ModelAdmin):
     list_display = (
         'sku',
         'name',
         'description',
         'category',
         'price',
-        'colours_avail'
+        'colours_avail',
         'rating',
         'image',
     )
 
     ordering= ('sku',)
 
-class CategoryAdmin('admin'.ModelAdmin):
+class CategoryAdmin(admin.ModelAdmin):
     list_display = (
-        'name',
         'field_name',
+        'readable_name',
+        'description',
     )
     
-class UserAdmin('admin'.ModelAdmin):
+class UserAdmin(admin.ModelAdmin):
     list_display = (
         'user_name',
         'password', 
@@ -33,7 +34,7 @@ class UserAdmin('admin'.ModelAdmin):
         'contact_no',
     )
 
-class OrderAdmin('admin'.ModelAdmin):
+class OrderAdmin(admin.ModelAdmin):
     list_display = (
         'id',
         'full_name',
@@ -43,7 +44,7 @@ class OrderAdmin('admin'.ModelAdmin):
         'date_created',
     )
 
-class Order_itemAdmin('admin'.MoelAdmin):
+class Order_itemAdmin(admin.ModelAdmin):
     list_display = (
         'order_id',
         'product_id',
