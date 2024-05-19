@@ -60,6 +60,18 @@ body {
     background: #000 !important;
 }
 
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
+}
+
+
 .my-overlay {
     background: url('/media/bowspage3.jpeg') no-repeat center center fixed;
     height: 500px;
