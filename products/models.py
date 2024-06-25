@@ -54,7 +54,7 @@ class Order(models.Model):
     date_updated = models.DateField()
     
     def __str__(self):
-        return self.order_id
+        return self.id
 
 class Order_item(models.Model):
     order_id = models.ForeignKey('Order', on_delete=models.SET)
